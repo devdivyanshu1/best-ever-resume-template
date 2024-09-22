@@ -1,32 +1,31 @@
 \cvsection{Education}
 \cvevent{B.Tech (7.7 CGPA)}{IIT BHU (Varanasi)}{2021 -- 2025}{Varanasi, UP}{}
-\cvevent{Higher Secondary - 91.6\%}{Buddha Public School}{2020}{Saharsa, Bihar}{}
+\cvevent{Higher Secondary - 84.6\%}{Buddha Public School}{2020}{Saharsa, Bihar}{}
 \cvevent{Secondary - 91.6\%}{Buddha Public School}{2018}{Saharsa, Bihar}{}
 
 \cvsection{Projects}
 
-\cvproject {\textbf{Freastly Fling Cutter}} 
+\cvproject {\textbf{Money Tracker}} 
 \begin{itemize}
-    \item \textbf{Developed} a full-stack e-commerce food delivery web application with Flask serving a \textbf{REST API} and \textbf{React} as the frontend.
-    \item Streamlined ordering system with \textbf{ExpressJS}, enabling smooth cart management, item addition/removal, and quantity updates.
-    \item Integrated \textbf{Google reCAPTCHA} for secure communication, verifying users in the contact form.
-    \item \textbf{Exposure:} React, NodeJS, MongoDB, Leaflet.
+    \item Developed a full-stack Money Tracker app to track income and expenses, enabling users to manage over \textbf{500 transactions} with features for adding, editing, and deleting entries.
+    \item Created a user-friendly interface with real-time summaries and \textbf{data visualization.}
+    \item Integrated a secure backend with Node.js, Express, and MongoDB, achieving under \textbf{200ms} response times for API requests while efficiently managing data storage.
+    \item \textbf{Exposure:} React, JavaScript, Node.js, Express.js, MongoDB.
+\end{itemize}
+
+\cvproject {\textbf{Book Store App}}
+\begin{itemize}
+    \item Created a comprehensive bookstore application that allows users to browse, search, and manage book listings.
+    \item Implemented user authentication and a \textbf{responsive design} for an enhanced user experience across devices.
+    \item Integrated efficient data handling that provides real-time updates on book availability, reducing data load by \textbf{25\%}.
+    \item Focused on \textbf{scalability} and responsive design, ensuring seamless use across multiple devices.
+    \item \textbf{Exposure:} React, JavaScript, Node.js, Express.js, HTML, CSS.
 \end{itemize}
 
 \cvproject {\textbf{Real Estate Platform}}
 \begin{itemize}
-    \item Built a \textbf{dynamic real estate platform} using \textbf{ReactJS}, featuring property search, filtering, and interactive maps.
-    \item Integrated \textbf{Redux} for efficient state management, ensuring smooth user interaction without page reloads.
-    \item Implemented \textbf{Google Maps API} for real-time property visualization and optimized the app for performance.
-    \item Focused on \textbf{scalability and responsive design}, ensuring seamless use across multiple devices.
-    \item \textbf{Exposure:} ReactJS, Redux, RESTful APIs, Google Maps API.
-\end{itemize}
-
-\cvproject {\textbf{Campus Navigation System}}
-\begin{itemize}
-    \item Developed a \textbf{Campus Navigation System} using \textbf{Dijkstra’s Algorithm} to find the shortest paths between campus locations.
-    \item Designed and implemented a \textbf{graph-based structure} for real-time navigation across multiple waypoints.
-    \item Created a \textbf{user-friendly interface} to allow students and staff to easily access optimal routes.
-    \item Optimized the system for \textbf{scalability and performance}, supporting future map expansions.
-    \item \textbf{Exposure:} C++, Graph Theory, Algorithm Design, Dijkstra’s Algorithm.
-\end{itemize}
+    \item Built a responsive Real Estate web application using Create React App with user-friendly property listings and navigation, ensuring mobile compatibility for optimal viewing.
+    \item   Build \textbf{10+} interactive UI components to boost user engagement and enhance experience.
+    \item Streamlined data handling and navigation by implementing state management and routing, reducing load times by \textbf{20\%}.
+    \item \textbf{Exposure:} React, JavaScript, HTML, CSS.
+\end{itemize}. 
