@@ -1,0 +1,136 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% Font settings
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage{hyperref}
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+  }
+\fi
+
+% Color definitions
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Item markers
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+% Bibliography (if needed)
+\addbibresource{sample.bib}
+
+\begin{document}
+
+% Header
+\name{Divyanshu Dev}
+  \smallskip
+    \smallskip
+\tagline{Software Engineer}
+  \smallskip
+%\photo{3.3cm}{profile.jpg}
+  \smallskip
+    \smallskip
+\personalinfo{
+  \phone{+91-8407096853}
+  \email{divyanshu.dev.cer21@itbhu.ac.in}
+  \location{New Delhi, India}
+  \linkedin{\href{https://www.linkedin.com/in/divyanshu-dev-4b4a002a7/}{LinkedIn}}
+  \github{\href{https://github.com/devdivyanshu1}{GitHub}}
+  \leetcode{\href{https://leetcode.com/u/divyanshudevvv/}{LeetCode}}
+}
+
+% Full-width header
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+% Make itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+  \smallskip
+    \smallskip
+      \smallskip
+        \smallskip
+% Experience section
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Software Development Intern}{IT Jobxs}{\textbf{May 2024 -- July 2024}}{\textbf{Remote}}
+\begin{itemize}
+  \item Enhanced webpage design and \textbf{achieved responsiveness}, optimizing performance across all devices and screen sizes, resulting in a 20\% increase in user engagement.
+   \smallskip
+  \item Implemented user \textbf{verification and authentication mechanisms}, enhancing account security on the IT Jobxs website.
+ 
+  \item Solved engineering challenges by \textbf{detecting and removing fake bots and posts}.
+   \smallskip
+  \item Developed interactive web pages and integrated reCAPTCHA \textbf{- Google Layer of Protection for websites}.
+   \smallskip
+  \item \textbf{Exposure}: HTML, CSS, JavaScript, Bootstrap, MySQL, PHP.
+   \smallskip
+\end{itemize}
+
+
+
+% Achievements section
+\cvsection{Achievements}
+\begin{itemize}
+  \smallskip
+  \item \textbf{Max Rating} on \href{https://www.codechef.com/users/divyanshu_dev}{CodeChef}: 1773 (3-star).
+   \smallskip
+  \item \textbf{Max Rating} on \href{https://leetcode.com/u/divyanshudevvv/}{LeetCode}: 1779.
+   \smallskip
+  \item \textbf{Secured Global Rank of 80} in CodeChef Starters Round 155 (Div 2).
+   \smallskip
+  \item \textbf{Secured Global Rank of 113} in CodeChef Starters (Div 4).
+   \smallskip
+   \item   \textbf{Secured Global Rank of 943} in LeetCode Biweekly Contest 143.
+   \smallskip
+  \item \textbf{Solved 800+ problems} on LeetCode, CodeChef, and other coding platforms.
+   \smallskip
+  \item \textbf{Global Rank of 1274} among 30,000+ in LeetCode Biweekly Contest 407.
+   \smallskip
+  \item Secured an \textbf{International Rank of 1843} and \textbf{Zonal Rank of 69} in Finals of the 10th IMO.
+   \smallskip
+\end{itemize}
+
+% Technical skills section
+\cvsection{Technical Skills}
+\begin{itemize}
+  \item \textbf{Programming Languages}: C++, C, JavaScript
+   \smallskip
+  \item \textbf{Frameworks \& Libraries}: HTML, CSS, ReactJS, NodeJS, ExpressJS, MongoDB, Bootstrap, Tailwind CSS, Material UI
+   \smallskip
+  \item \textbf{Version Control}: Git, GitHub
+   \smallskip
+  \item \textbf{Other Tools}: Postman, Netlify
+ \smallskip
+\end{itemize}
+
+% Coursework section
+\cvsection{Coursework}
+\begin{itemize}
+  \item Operating Systems
+  \smallskip
+  \item Computer Networks
+  \smallskip
+  \item Object-Oriented Programming
+  \smallskip
+  \item Database Management Systems
+  \smallskip
+\end{itemize}
+
+\end{document}
